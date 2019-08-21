@@ -1,5 +1,7 @@
 # Pricing Service
 
+Version by: Chauncey Frend.
+
 This is an application built to allow the periodic scanning of online webstores, to notify users of changes in prices of items they select.
 
 This application is part of the course The Complete Python Web Developer, a course aimed at beginners, to teach the creation of web applications using Python. If that sounds interesting, check it out httpswww.udemy.comthe-complete-python-web-course-learn-by-building-8-apps
@@ -25,15 +27,3 @@ Technology stack MongoDB, Python (Flask & Jinja2), HTMLCSSBootstrap, Mailgun.
 4. Create a virtual environment for the repository (run `virtualenv --python=python3.5 venv`)
 5. Run the Flask server by executing `venvbinpython price-of-chairsrcrun.py`.
 6. Whenever you want to check prices of items (caution can take a long time if you have a lot of items!), run `venvbinpython price-of-charsrcalert_updater.py`.
-
-![Home Screen](readme-fileshome.png)
-
-![Sign up Screen](readme-filessignup.png)
-
-![Alerts Screen](readme-filesalerts.png)
-
-![Create Alert Screen](readme-filescreate_alert.png)
-
-![Stores Screen](readme-filesstores.png)
-
-![Edit Store Screen](readme-filesedit_store.png)
