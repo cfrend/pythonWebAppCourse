@@ -5,7 +5,7 @@ from views.stores import store_blueprint
 from views.users import user_blueprint
 
 app = Flask(__name__)
-app.secret_key = 'IKUITG&FGILJHGUTED^&%fuoyfiuHFOUYRFOUKJGKJBOIUHFUOYVOUYFUYGUGV'
+app.secret_key = os.environ.get("SECRET_KEY")
 app.config.update(
     ADMIN=os.environ.get('ADMIN')
 )
